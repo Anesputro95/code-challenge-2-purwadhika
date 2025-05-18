@@ -4,12 +4,12 @@ import Image from 'next/image'
 
 const Header = () => {
     return (
-        <div className="flex items-center justify-between px-8  border-2 border-blue-600">
+        <div className="flex items-center justify-between px-8 shadow-lg shadow-indigo-500/50">
             
                 <div className='logo relative left-10'>
                     <Image src="/assets/logo.png" alt="logo" width={80} height={80} />
                 </div>
-                <div className='flex space-x-8'>
+                <div className='flex space-x-8 relative left-13 scroll-smooth focus:scroll-auto'>
                     <a href="#about">ABOUT</a>
                     <a href="#portofolio">PORTOFOLIO</a>
                     <a href="#contact">CONTACT</a>
