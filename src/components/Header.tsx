@@ -9,7 +9,7 @@ const Header = () => {
                 <div className='logo relative left-10'>
                     <Image src="/assets/logo.png" alt="logo" width={80} height={80} />
                 </div>
-                <div className='flex space-x-8 text-fuchsia-900'>
+                <div className='flex space-x-8'>
                     <a href="#about">ABOUT</a>
                     <a href="#portofolio">PORTOFOLIO</a>
                     <a href="#contact">CONTACT</a>

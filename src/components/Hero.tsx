@@ -27,8 +27,10 @@ const Hero = () => {
                 />
                 
                 {/* logo socmed */}
-                <div>
-                    
+                <div className='border-2 border-yellow-300 w-12 h-56 absolute bottom-0 right-0 z-20 flex flex-col items-center gap-y-10'>
+                    <a href="" className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150 duration-300'><img src="/assets/wa.png" alt="" /></a>
+                    <a href="" className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150 duration-300'><img src="/assets/linked.png" alt="" /></a>
+                    <a href="" className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150 duration-300'><img src="/assets/ig.png" alt="" /></a>
                 </div>
             </div>
             
